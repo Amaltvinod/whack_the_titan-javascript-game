@@ -1,0 +1,52 @@
+#score{
+    color: rgb(161, 14, 14);
+    font-size: xx-large;
+    font-weight: lighter;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px lightskyblue;
+    width: 200px;
+    margin-right: 250px;
+}
+#time-left{
+    color: rgb(161, 14, 14);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px lightskyblue;
+    font-weight: lighter;
+    width: 200px;
+    margin-right: 250px;
+    margin-bottom: 0px;
+}
+#whack{
+    color: rgb(161, 14, 14);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: capitalize;
+   text-shadow: 3px 3px 6px lightskyblue;
+   margin-top: 50px;
+     margin-right: 350px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 606px;
+    height: 606px;
+    border-style: groove;
+    border-width: 5px;
+    margin: 30px 300px 0px 300px;
+}
+.row{
+   
+    width: 200px;
+    height: 200px;
+    border: 1px outset whitesmoke;
+
+}
+body{
+    background-image: url(images/attack_on_titan\ background.jpg);
+    background-size: contain;
+}
+.titan{
+    background-image: url(images/reiner.png);
+    background-size: cover;
+}
